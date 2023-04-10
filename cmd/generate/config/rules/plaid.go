@@ -3,8 +3,8 @@ package rules
 import (
 	"fmt"
 
-	"github.com/zricethezav/gitleaks/v8/cmd/generate/secrets"
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/cmd/generate/secrets"
+	"github.com/gptio/gitleaks/v8/config"
 )
 
 func PlaidAccessID() *config.Rule {

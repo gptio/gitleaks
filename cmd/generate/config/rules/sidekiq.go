@@ -3,7 +3,7 @@ package rules
 import (
 	"regexp"
 
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/config"
 )
 
 func SidekiqSecret() *config.Rule {

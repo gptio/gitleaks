@@ -3,8 +3,8 @@ package rules
 import (
 	"regexp"
 
-	"github.com/zricethezav/gitleaks/v8/cmd/generate/secrets"
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/cmd/generate/secrets"
+	"github.com/gptio/gitleaks/v8/config"
 )
 
 func TelegramBotToken() *config.Rule {

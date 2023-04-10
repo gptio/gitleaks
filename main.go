@@ -4,9 +4,9 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/gptio/gitleaks/v8/cmd"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/zricethezav/gitleaks/v8/cmd"
 )
 
 func main() {

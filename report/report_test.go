@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/config"
 )
 
 const (

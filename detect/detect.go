@@ -12,10 +12,10 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/gptio/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/detect/git"
+	"github.com/gptio/gitleaks/v8/report"
 	"github.com/h2non/filetype"
-	"github.com/zricethezav/gitleaks/v8/config"
-	"github.com/zricethezav/gitleaks/v8/detect/git"
-	"github.com/zricethezav/gitleaks/v8/report"
 
 	"github.com/fatih/semgroup"
 	"github.com/gitleaks/go-gitdiff/gitdiff"

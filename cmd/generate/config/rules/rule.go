@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/gptio/gitleaks/v8/config"
+	"github.com/gptio/gitleaks/v8/detect"
 	"github.com/rs/zerolog/log"
-	"github.com/zricethezav/gitleaks/v8/config"
-	"github.com/zricethezav/gitleaks/v8/detect"
 )
 
 const (
